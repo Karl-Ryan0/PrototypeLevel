@@ -137,3 +137,5 @@ Will allow one type of door to open.
 * https://www.youtube.com/@SmartPoly
 * https://www.youtube.com/@InfimaGames
 * Official Unreal Engine Documentation
+
+No external assets were used. Anything outside of the default First Person Shooter assets are my own creation.
