@@ -7167,3 +7167,123 @@ Script call stack:
 [2025.12.18-10.31.42:273][ 68]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.12.18-10.31.42:273][ 68]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.12.18-10.31.42:273][ 68]AssetCheck: /Game/Production/Blueprints/Objectives/BP_Checkpoint Validating asset
+[2025.12.18-10.37.17:949][308]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7654.604980
+[2025.12.18-10.37.18:950][311]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-10.37.18:950][311]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7655.271484, Update Interval: 357.824646
+[2025.12.18-10.39.06:872][626]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'AudioMixerPlatformInterface. Timeout waiting for h/w.', force=1
+[2025.12.18-10.39.06:872][626]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.12.18-13.55.06:730][627]LogAudioMixer: Display: Ignoring device swap request, AudioStreamInfo.StreamState: 5
+[2025.12.18-13.55.06:730][627]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '[System Default]', because: 'AudioMixerPlatformInterface. Timeout waiting for h/w.', force=1
+[2025.12.18-13.55.06:730][627]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [11764 Seconds] waiting for h/w. InstanceID=1
+[2025.12.18-13.55.06:869][627]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2025.12.18-13.55.06:869][627]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.18-13.55.07:528][627]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=AudioMixerPlatformInterface. Timeout waiting for h/w.
+[2025.12.18-13.55.07:887][629]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d6d99420-09cd-4b6a-a83b-59cd27b67951}, Name=Speakers (High Definition Audio Device)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=289.52
+[2025.12.18-13.55.07:892][629]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.18-13.55.07:892][629]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.18-13.55.07:894][629]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.18-13.55.13:370][645]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=NVIDIA HDMI Out (NVIDIA Virtual Audio Device (Wave Extensible) (WDM)), InstanceID=1
+[2025.12.18-13.55.13:370][645]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{29ba29f3-fa4d-44db-8414-1c4e3865e75f}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.18-13.55.13:663][645]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{29ba29f3-fa4d-44db-8414-1c4e3865e75f}]
+[2025.12.18-13.55.13:663][645]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2025.12.18-13.55.13:663][645]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2025.12.18-13.55.13:765][646]LogAudioMixer: Error: CreateMasteringVoice failed with result 0x88960004: XAUDIO2_E_DEVICE_INVALIDATED (line: 1277) with Args (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{29ba29f3-fa4d-44db-8414-1c4e3865e75f}, Name=NVIDIA HDMI Out (NVIDIA Virtual Audio Device (Wave Extensible) (WDM)))
+[2025.12.18-13.55.13:774][646]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (High Definition Audio Device), InstanceID=1
+[2025.12.18-13.55.13:774][646]LogAudioMixer: Display: Ignoring device swap request, swap already requested.
+[2025.12.18-13.55.13:774][646]LogAudioMixer: Display: NOT-ALLOWING attempt to swap audio render device to new device: '{0.0.0.00000000}.{d6d99420-09cd-4b6a-a83b-59cd27b67951}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2025.12.18-13.55.13:998][646]LogAudioMixer: Warning: FAudioMixerPlatformSwappable::CheckThreadedDeviceSwap PostDeviceSwap() failed
+[2025.12.18-13.55.13:998][646]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.18-13.55.13:998][646]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.12.18-13.55.13:998][646]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.18-13.55.13:998][646]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=29620
+[2025.12.18-13.55.13:998][646]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.12.18-13.55.14:000][646]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.18-13.55.51:677][760]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19572.195312
+[2025.12.18-13.55.52:677][763]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-13.55.52:677][763]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19572.863281, Update Interval: 322.288269
+[2025.12.18-14.02.13:091][904]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19953.849609
+[2025.12.18-14.02.14:090][907]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-14.02.14:090][907]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19954.517578, Update Interval: 307.029633
+[2025.12.18-14.03.30:817][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.12.18-14.03.31:949][521]LogSlate: Window 'BP_Checkpoint' being destroyed
+[2025.12.18-14.03.31:973][521]LogWorld: UWorld::CleanupWorld for World_78, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-14.03.31:973][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-14.03.32:024][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.12.18-14.07.57:239][119]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20296.771484
+[2025.12.18-14.07.57:387][133]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-14.07.57:387][133]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20296.908203, Update Interval: 303.883789
+[2025.12.18-14.08.03:109][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.12.18-14.08.03:115][598]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-14.08.03:157][598]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/5/LK/0U2J7OWDOVLRT4VYNAINNR
+[2025.12.18-14.08.03:157][598]LogSavePackage: Moving 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Saved/0U2J7OWDOVLRT4VYNAINNR4995D42E42C5A0FFF4A9E7AFB57B3DE5.tmp' to 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Content/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/5/LK/0U2J7OWDOVLRT4VYNAINNR.uasset'
+[2025.12.18-14.08.03:159][598]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/9/TS/E1XAZ2YPWB49HP0ZMP95QT
+[2025.12.18-14.08.03:159][598]LogSavePackage: Moving 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Saved/E1XAZ2YPWB49HP0ZMP95QTEB61A4E3468611027B2EFA8B2C7C5A90.tmp' to 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Content/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/9/TS/E1XAZ2YPWB49HP0ZMP95QT.uasset'
+[2025.12.18-14.08.03:160][598]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/E/E0/DU0GBALRYH2T07UOVLTN62
+[2025.12.18-14.08.03:161][598]LogSavePackage: Moving 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Saved/DU0GBALRYH2T07UOVLTN62543574A44FE31D553D37CE984ACC0F7B.tmp' to 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Content/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/E/E0/DU0GBALRYH2T07UOVLTN62.uasset'
+[2025.12.18-14.08.03:173][598]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.389 ms (total: 2.19 sec)
+[2025.12.18-14.08.03:220][598]LogContentValidation: Display: Starting to validate 3 assets
+[2025.12.18-14.08.03:220][598]LogContentValidation: Enabled validators:
+[2025.12.18-14.08.03:220][598]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.18-14.08.03:220][598]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.18-14.08.03:220][598]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.18-14.08.03:220][598]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.18-14.08.03:220][598]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.18-14.08.03:220][598]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.18-14.08.03:220][598]AssetCheck: /Game/Production/Levels/Lvl_PrototypeLevel Validating asset
+[2025.12.18-14.09.16:069][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.12.18-14.09.16:076][816]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-14.09.16:136][816]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/B/BY/FR6I0S1QX2XEJVKTAY9RZB
+[2025.12.18-14.09.16:136][816]LogSavePackage: Moving 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Saved/FR6I0S1QX2XEJVKTAY9RZB614858AE43A41122E12100867EB22715.tmp' to 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Content/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/B/BY/FR6I0S1QX2XEJVKTAY9RZB.uasset'
+[2025.12.18-14.09.16:148][816]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.053 ms (total: 2.26 sec)
+[2025.12.18-14.09.16:200][816]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.18-14.09.16:200][816]LogContentValidation: Enabled validators:
+[2025.12.18-14.09.16:200][816]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.18-14.09.16:200][816]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.18-14.09.16:200][816]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.18-14.09.16:200][816]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.18-14.09.16:200][816]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.18-14.09.16:200][816]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.18-14.09.16:200][816]AssetCheck: /Game/Production/Levels/Lvl_PrototypeLevel Validating asset
+[2025.12.18-14.13.59:085][531]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 20658.289062
+[2025.12.18-14.14.00:084][534]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-14.14.00:084][534]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 20658.957031, Update Interval: 340.619537
+[2025.12.18-14.20.17:479][665]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21037.064453
+[2025.12.18-14.20.18:477][668]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-14.20.18:477][668]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21037.730469, Update Interval: 333.478210
+[2025.12.18-14.26.46:570][831]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21426.552734
+[2025.12.18-14.26.47:570][835]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-14.26.47:570][835]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21427.220703, Update Interval: 320.451660
+[2025.12.18-14.28.21:045][162]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Production/Blueprints/Objectives/BP_ObjectiveManager.BP_ObjectiveManager
+[2025.12.18-14.28.21:046][162]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_80
+[2025.12.18-14.29.05:914][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.12.18-14.29.05:919][612]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/2/TH/4GOZE5MK0PZDK8QJL9OHWY_Auto4
+[2025.12.18-14.29.05:919][612]LogSavePackage: Moving 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Saved/4GOZE5MK0PZDK8QJL9OHWY_Auto45A47FDCB4162927BF1A2D6AB194470D6.tmp' to 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Saved/Autosaves/Game/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/2/TH/4GOZE5MK0PZDK8QJL9OHWY_Auto4.uasset'
+[2025.12.18-14.29.05:919][612]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Production/Levels/Lvl_PrototypeLevel' took 0.044
+[2025.12.18-14.29.05:919][612]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.044
+[2025.12.18-14.29.49:630][897]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Production/Blueprints/Enemies/BP_Turret.BP_Turret
+[2025.12.18-14.29.49:630][897]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_81
+[2025.12.18-14.29.49:922][897]LogActor: Loaded Actor (Gun_GEN_VARIABLE_BP_TurretGun_C_CAT) with IsValid() == false
+[2025.12.18-14.30.28:120][143]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Production/Blueprints/Enemies/BP_Boss.BP_Boss
+[2025.12.18-14.30.28:120][143]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_82
+[2025.12.18-14.30.28:430][143]LogActor: Loaded Actor (Gun_GEN_VARIABLE_BP_Weapon_C_CAT) with IsValid() == false
+[2025.12.18-14.32.48:762][786]Cmd: TRANSACTION UNDO
+[2025.12.18-14.32.48:762][786]LogEditorTransaction: Undo Move Elements
+[2025.12.18-14.32.49:409][805]Cmd: SELECT NONE
+[2025.12.18-14.32.54:205][185]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21789.822266
+[2025.12.18-14.32.54:375][199]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-14.32.54:375][199]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21789.978516, Update Interval: 345.094757
+[2025.12.18-14.39.06:284][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.12.18-14.39.06:289][115]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/2/TH/4GOZE5MK0PZDK8QJL9OHWY_Auto5
+[2025.12.18-14.39.06:289][115]LogSavePackage: Moving 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Saved/4GOZE5MK0PZDK8QJL9OHWY_Auto5D5A7267D480830CC636C03ACF96191D9.tmp' to 'D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Saved/Autosaves/Game/__ExternalActors__/Production/Levels/Lvl_PrototypeLevel/2/TH/4GOZE5MK0PZDK8QJL9OHWY_Auto5.uasset'
+[2025.12.18-14.39.06:289][115]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Production/Levels/Lvl_PrototypeLevel' took 0.062
+[2025.12.18-14.39.06:289][115]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.062
+[2025.12.18-14.39.34:507][429]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22188.718750
+[2025.12.18-14.39.34:681][443]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-14.39.34:681][443]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22188.880859, Update Interval: 348.667267
+[2025.12.18-14.46.02:528][ 20]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22576.820312
+[2025.12.18-14.46.03:528][ 22]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-14.46.03:528][ 23]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22577.488281, Update Interval: 321.286652
+[2025.12.18-14.47.35:078][297]LogDerivedDataCache: C:/Users/karlt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.18-14.52.01:692][ 87]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22936.261719
+[2025.12.18-14.52.02:721][ 90]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-14.52.02:721][ 90]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22936.949219, Update Interval: 357.610413

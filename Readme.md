@@ -24,7 +24,7 @@ For the purposes of demonstration there is no real way to "lose", if the player 
 
 ## Areas
 ### Map
-![Top Down Map](image.png)
+![Top Down Map](images/image.png)
 
 --- 
 
@@ -56,7 +56,7 @@ There is a large hole in this area to prevent the player from accessing the bric
 ---
 
 ### Boss Area
-![Boss Area](image.png)
+![Boss Area](images/image-16.png)
 
 This is where the boss lurks waiting for the player. There are pillars to hide in as well as a method to apply greater damage to the boss.
 
@@ -134,6 +134,9 @@ Will allow one type of door to open.
 * Several users stated that the platform section was too long and challenging, so some platforms were slowed down, there is now a checkpoint, and the player will teleport either to this checkpoint or to the start if fell out of the level, as opposed to dying.
 * There is a very easy bypass for the platform section - jump on the wall and then onto the switch. The wall was moved further away to make this impossible.
 * This only resolved half the issue, the player could just stay on the wall and leave the area. This was fixed by adding walls that appear when the player approaches, letting them think that they have broken the game.
+
+![Level Skip](Images/screenshot.png)
+
 
 ### Future Changes
 * ~~The walls still allow the player to bypass the platform area. This won't update the objective manager and will cause a softlock.~~
