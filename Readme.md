@@ -137,13 +137,16 @@ Will allow one type of door to open.
 
 ![Level Skip](Images/Screenshot.png)
 
+* The BP_Friendo was changed from having the BP_HealthPickup Item to an instance editable variable to prevent the BP_Enemo child from also spawning this item.
+* The BP_ShootEnemy had its vision angle and distance reduced to prevent the bug causing it to fire straight ahead constantly. This is generally outside the bounds of play and shouldn't be exploitable by players anyway.
 
 ### Future Changes
 * ~~The walls still allow the player to bypass the platform area. This won't update the objective manager and will cause a softlock.~~
 
 ### Bugs Encountered
-* The BP_Enemo is a child of BP_Friendo and will drop a health pickup when encountered.
+* ~~The BP_Enemo is a child of BP_Friendo and will drop a health pickup when encountered.~~
 * The Ammo pickup will allow the Reserve Ammo to go above 90.
+* ~~The BP_ShootEnemy will fire straight ahead if it detects a player outside of the Navmesh area.~~
 
 ## Works Referenced
 * https://mammothclub.com/
