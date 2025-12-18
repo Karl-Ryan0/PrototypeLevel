@@ -133,10 +133,14 @@ Will allow one type of door to open.
 * The football area proved to take longer than intended so the amount of initial balls was changed from four to nine.
 * Several users stated that the platform section was too long and challenging, so some platforms were slowed down, there is now a checkpoint, and the player will teleport either to this checkpoint or to the start if fell out of the level, as opposed to dying.
 * There is a very easy bypass for the platform section - jump on the wall and then onto the switch. The wall was moved further away to make this impossible.
+* This only resolved half the issue, the player could just stay on the wall and leave the area. This was fixed by adding walls that appear when the player approaches, letting them think that they have broken the game.
 
 ### Future Changes
-* The walls still allow the player to bypass the platform area. This won't update the objective manager and will cause a softlock.
+* ~~The walls still allow the player to bypass the platform area. This won't update the objective manager and will cause a softlock.~~
 
+### Bugs Encountered
+* The BP_Enemo is a child of BP_Friendo and will drop a health pickup when encountered.
+* The Ammo pickup will allow the Reserve Ammo to go above 90.
 
 ## Works Referenced
 * https://mammothclub.com/
