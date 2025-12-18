@@ -56,6 +56,9 @@ There is a large hole in this area to prevent the player from accessing the bric
 ---
 
 ### Boss Area
+![Boss Area](image.png)
+
+This is where the boss lurks waiting for the player. There are pillars to hide in as well as a method to apply greater damage to the boss.
 
 ## AI
 ### Enemies
@@ -85,6 +88,11 @@ Like above, they behave in a similar manner but will shoot the player while chas
 ![Enemo](Images/image-11.png)
 
 This actor will run around quickly and unpredictably. It does not fight back but it will drop a key when it's destroyed.
+
+#### Boss
+![Boss](image-1.png)
+
+This character uses AI Perception instead of pawn sensing due to his size and functionality. He will detect the player based on vision. If he loses the player, he will return to his spawn point and begin spinning, looking for the player.
 
 ### Other
 
