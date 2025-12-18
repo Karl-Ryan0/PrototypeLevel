@@ -2,7 +2,7 @@
 This is a level broken down into several different regions with different purposes.
 
 # Concept Image
-![Concept Image](images/Concept.png)
+![Concept Image](Images/Concept.png)
 
 There are puzzle sections, combat sections and a platforming section.
 
@@ -24,7 +24,7 @@ For the purposes of demonstration there is no real way to "lose", if the player 
 
 ## Areas
 ### Map
-![Top Down Map](images/image.png)
+![Top Down Map](Images/image.png)
 
 --- 
 
@@ -56,7 +56,7 @@ There is a large hole in this area to prevent the player from accessing the bric
 ---
 
 ### Boss Area
-![Boss Area](images/image-16.png)
+![Boss Area](Images/image-16.png)
 
 This is where the boss lurks waiting for the player. There are pillars to hide in as well as a method to apply greater damage to the boss.
 
@@ -90,7 +90,7 @@ Like above, they behave in a similar manner but will shoot the player while chas
 This actor will run around quickly and unpredictably. It does not fight back but it will drop a key when it's destroyed.
 
 #### Boss
-![Boss](image-1.png)
+![Boss](Images/image-1.png)
 
 This character uses AI Perception instead of pawn sensing due to his size and functionality. He will detect the player based on vision. If he loses the player, he will return to his spawn point and begin spinning, looking for the player.
 
@@ -135,7 +135,7 @@ Will allow one type of door to open.
 * There is a very easy bypass for the platform section - jump on the wall and then onto the switch. The wall was moved further away to make this impossible.
 * This only resolved half the issue, the player could just stay on the wall and leave the area. This was fixed by adding walls that appear when the player approaches, letting them think that they have broken the game.
 
-![Level Skip](Images/screenshot.png)
+![Level Skip](Images/Screenshot.png)
 
 
 ### Future Changes
