@@ -60,6 +60,8 @@ There is a large hole in this area to prevent the player from accessing the bric
 
 This is where the boss lurks waiting for the player. There are pillars to hide in as well as a method to apply greater damage to the boss.
 
+This area also has additional functionality: there are three pressure plates, and when they're stepped on they'll start a chain in the BP_DangerFloor blueprint. When all three are stepped on, the floor will change colour and apply damage to the boss character. This is not specific to the boss, and the player can be hurt if they are careless.
+
 ## AI
 ### Enemies
 #### Vision Turret
