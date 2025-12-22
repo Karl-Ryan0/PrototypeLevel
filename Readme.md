@@ -117,10 +117,15 @@ This rotates slowly and the vision based pawn sensing rotates with it. It will s
 
 This will heal the player by 50 points. Instance editable and can be changed.
 
-#### Ammo Pickup
-![alt text](Images/image-14.png)
+#### Assault Rifle
+![Assault rifle and Ammo](Images/image-14.png)
 
-This will provide the player with 30 rounds of ammunution, loaded into the reserve. Instance editable and can be changed.
+This allows the player to switch to the assault rifle, and the ammo pickup provides 30 rounds of ammunition.
+
+#### Pistol
+![alt text](Images/image-17.png)
+
+This allows the player to switch to the pistol, and the ammo pickup provides 12 rounds of ammunition.
 
 #### Key
 ![Key](Images/image-15.png)
