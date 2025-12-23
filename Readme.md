@@ -140,10 +140,6 @@ This allows the player to switch to the pistol, and the ammo pickup provides 12 
 
 Will allow one type of door to open. 
 
-## Other Objects
-
---
-
 ## Iterative Changes
 * The football area proved to take longer than intended so the amount of initial balls was changed from four to nine.
 * Several users stated that the platform section was too long and challenging, so some platforms were slowed down, there is now a checkpoint, and the player will teleport either to this checkpoint or to the start if fell out of the level, as opposed to dying.

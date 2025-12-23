@@ -4000,3 +4000,26 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.23-14.41.20:661][101]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     0.00 GB HeaderData
 [2025.12.23-14.41.20:661][101]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     2.48 MB InitialLoadData
 [2025.12.23-14.41.20:661][101]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.12.23-14.41.20:828][102]UATHelper: Packaging (Windows): LogPakFile: Display: UnrealPak executed in 1.340111 seconds
+[2025.12.23-14.41.20:828][102]UATHelper: Packaging (Windows): Took 1.63s to run UnrealPak.exe, ExitCode=0
+[2025.12.23-14.41.20:828][102]UATHelper: Packaging (Windows): DumpManifest: C:\Users\karlt\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\FinalCopyWin64_UFSFiles.txt, NumItems: 3161
+[2025.12.23-14.41.20:828][102]UATHelper: Packaging (Windows): DumpManifest: C:\Users\karlt\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\FinalCopyWin64_NonUFSFiles.txt, NumItems: 329
+[2025.12.23-14.41.20:828][102]UATHelper: Packaging (Windows): DumpManifest: C:\Users\karlt\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 6
+[2025.12.23-14.41.20:828][102]UATHelper: Packaging (Windows): Copying NonUFSFiles to staging directory: D:\School\Game Design\Introduction to Programming\Unreal Projects\PrototypeLevel\Saved\StagedBuilds\Windows
+[2025.12.23-14.41.29:174][127]UATHelper: Packaging (Windows): Copying DebugFiles to staging directory: D:\School\Game Design\Introduction to Programming\Unreal Projects\PrototypeLevel\Saved\StagedBuilds\Windows
+[2025.12.23-14.41.38:775][155]UATHelper: Packaging (Windows): Stage command time: 24.01 s
+[2025.12.23-14.41.38:775][155]UATHelper: Packaging (Windows): ********** STAGE COMMAND COMPLETED **********
+[2025.12.23-14.41.38:786][155]UATHelper: Packaging (Windows): ********** PACKAGE COMMAND STARTED **********
+[2025.12.23-14.41.38:786][155]UATHelper: Packaging (Windows): Package command time: 0.00 s
+[2025.12.23-14.41.38:786][155]UATHelper: Packaging (Windows): ********** PACKAGE COMMAND COMPLETED **********
+[2025.12.23-14.41.38:786][155]UATHelper: Packaging (Windows): ********** ARCHIVE COMMAND STARTED **********
+[2025.12.23-14.41.38:786][155]UATHelper: Packaging (Windows): Archiving to D:/School/Game Design/Introduction to Programming/Unreal Projects/PrototypeLevel/Build
+[2025.12.23-14.41.39:120][157]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13923.420898
+[2025.12.23-14.41.40:121][160]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.23-14.41.40:121][160]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13924.087891, Update Interval: 355.316010
+[2025.12.23-14.41.40:577][161]UATHelper: Packaging (Windows): Archive command time: 1.80 s
+[2025.12.23-14.41.40:577][161]UATHelper: Packaging (Windows): ********** ARCHIVE COMMAND COMPLETED **********
+[2025.12.23-14.41.40:588][161]UATHelper: Packaging (Windows): BuildCookRun time: 47.18 s
+[2025.12.23-14.41.40:588][161]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2025.12.23-14.41.40:588][161]UATHelper: Packaging (Windows): AutomationTool executed for 0h 0m 47s
+[2025.12.23-14.41.40:588][161]UATHelper: Packaging (Windows): AutomationTool exiting with ExitCode=0 (Success)
