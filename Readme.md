@@ -22,6 +22,12 @@ Clear the level. The objectives need to be tackled in a certain order but level 
 ### How to Lose
 For the purposes of demonstration there is no real way to "lose", if the player falls out of the level or runs out of health, they are teleported back to their last activated checkpoint.
 
+### Controls
+C - Crouch
+F - Shout (no purpose outside of demonstration)
+R - Reload
+ESC - Quit
+
 ## Areas
 ### Map
 ![Top Down Map](Images/image.png)
@@ -43,7 +49,7 @@ There are several different enemy types here that will attack the player. There 
 ### Football Area
 ![Football](Images/image-3.png)
 
-This area is like scoring goals. There are balls on the ground that can be shot at or walked into to send them flying out of the area and towards the floating 'goal'. The amount needed is five, but this might change on iteration, see below for more details on this. There is a moving platform that will spawn more balls should the player run out.
+This area is like scoring goals. There are balls on the ground that can be shot at or walked into to send them flying out of the area and towards the floating 'goal'. The amount needed is five, but this might change on iteration, see below for more details on this. ~~There is a moving platform that will spawn more balls should the player run out.~~ The balls will now respawn when they fall below -1000 on the Z axis.
 
 ---
 ### Breakout Area
@@ -52,6 +58,8 @@ This area is like scoring goals. There are balls on the ground that can be shot 
 This area is an approximation of a 3D breakout game. On arrival, the player can attach to a paddle that will repel the ball towards the bricks. The player needs to clear the playing field of all the bricks to progress. Upon completion, the game will advance and the paddle will be removed from the player.
 
 There is a large hole in this area to prevent the player from accessing the bricks which are considered out of play bounds but the player will be teleported back to the area if they are to fall.
+
+There is a small chance that an additional ball will be spawned when a brick is destroyed.
 
 ---
 
@@ -94,7 +102,7 @@ This actor will run around quickly and unpredictably. It does not fight back but
 #### Boss
 ![Boss](Images/image-1.png)
 
-This character uses AI Perception instead of pawn sensing due to his size and functionality. He will detect the player based on vision. If he loses the player, he will return to his spawn point and begin spinning, looking for the player.
+This character uses AI Perception instead of pawn sensing due to his size and functionality. He will detect the player based on vision. If he loses the player, he will return to his spawn point and begin spinning, looking for the player. He fires 'lasers' out of both his eyes.
 
 ### Other
 
@@ -148,6 +156,7 @@ Will allow one type of door to open.
 * The BP_ShootEnemy had its vision angle and distance reduced to prevent the bug causing it to fire straight ahead constantly. This is generally outside the bounds of play and shouldn't be exploitable by players anyway.
 * The ammo pickups used to allow the player to bypass the maximum ammo amount. This was resolved with a clamp in the ammo pickup blueprint.
 * The BP_BossPlates used to allow a player to step on one repeatedly to achieve the intended effect, this was fixed by disabling collision when one is stepped on.
+* The breakout ball had speed at 2000, then changed to 4000, and finally settled on 2500 with the addition of new balls possibly spawning.
 
 ### Future Changes
 * ~~The walls still allow the player to bypass the platform area. This won't update the objective manager and will cause a softlock.~~
